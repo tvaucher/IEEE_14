@@ -11,6 +11,6 @@ IEEE_14
 
 ##Problèmes résolus##
 - Problem_AJ 100%
+- IEEE Hkn Problem
 
 ##Problèmes à résoudre
-- IEEE HKN Problem
