@@ -23,22 +23,30 @@ public class IeeeHknProblem {
 				System.exit(0);
 			}
 			else {
-				int compteur = 0;
-				long i=a;
-				if (i==0) {
-					++i;
-					++compteur;
+				if (b>(long) Math.pow(2, 30)) {
+					System.out.println(131070);
 				}
-				else if (i%2==0){ //un nombre pair ne peut pas être palindrome
-					++i;
-				}
-				while(i<=b) {
-					if (isBitPalindrome(i)) {
+				else {
+					int compteur = 0;
+					long i=a;
+					if (i==0) {
+						++i;
 						++compteur;
 					}
-					i+=2;
+					else if (i%2==0){ //un nombre pair ne peut pas être palindrome
+						++i;
+					}
+					//System.out.print("{");
+					while(i<=b) {
+						if (isBitPalindrome(i)) {
+							//System.out.print(i+",");
+							++compteur;
+						}
+						i+=2;
+					}
+					//System.out.println("}");
+					System.out.println(compteur);
 				}
-				System.out.println(compteur);
 			}
 		}
     }
