@@ -1,0 +1,5 @@
+.metadata/*
+Challenges/.settings/*
+Challenges/bin/*
+Challenges/.classpath
+Challenges/.project
