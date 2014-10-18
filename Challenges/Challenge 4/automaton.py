@@ -41,8 +41,9 @@ for i in range(1, max_iters):
 	cell_matrix.append(line)
 
 #Display.
-i = 1
-for line in cell_matrix:
-	print(str(i) + ' '*(4-len(str(i))), end='')
-	display(line)
-	i += 1
+for i in range(len(cell_matrix)):
+	print(str(i+1) + ' '*(4-len(str(i+1))), end='')
+	display(cell_matrix[i])
+	if i > 0:
+		if cell_matrix[i] == cell_matrix[i-1]:
+			break
