@@ -112,8 +112,8 @@ public class CoffeeEmpire {
 							}
 							//System.out.print("(" + profit + ")");
 							if (profit>maxProfit) {
-								X = i+1;
-								Y = j+1;
+								Y = i+1;
+								X = j+1;
 								maxProfit=profit;
 							}
 						}
