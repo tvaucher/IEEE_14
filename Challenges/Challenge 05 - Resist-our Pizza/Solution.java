@@ -1,9 +1,11 @@
-import java.util.HashMap;
-import java.util.Scanner;
-
-public class ResistOurPiza {
-	
-	public static Scanner keyboard = new Scanner(System.in);
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+//ResistOurPizza
+public class Solution {
+    public static Scanner keyboard = new Scanner(System.in);
 	public static void main(String[] args) {
 		HashMap<String, Integer> toppings = new HashMap<String, Integer>();
 		toppings.put("Anchovies", 50);

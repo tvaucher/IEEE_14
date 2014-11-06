@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
-public class CoffeeEmpire {
+//Coffee Empire
+public class Solution {
 	public static Scanner keyboard = new Scanner(System.in);
 	
 	public static void main(String[] args) {

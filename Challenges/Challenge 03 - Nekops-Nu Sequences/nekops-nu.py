@@ -1,5 +1,6 @@
-k, *seq = list(map(int, input().split(' ')))
-seq_of_seq = []
+k, *seq = list(map(int, input().strip().split(' ')))
+seq = [x for x in seq if type(x) is int
+]seq_of_seq = []
 
 def nekops_nu(sequence):
 	result = []
